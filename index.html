@@ -16,38 +16,52 @@
     <body>
         <header>
             <nav>
-                <img src="./images/logo.svg" alt="" />
-                <img src="./images/icon-hamburger.svg" alt="" id="hamburger" />
+                <img src="./images/logo.svg" alt="logo" />
+                <div class="nav-links">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Projects</a>
+                    <a href="#" class="contact-btn">CONTACT</a>
+                </div>
+                <img src="./images/icon-hamburger.svg" alt="menu" id="hamburger" />
                 <div class="mobile-menu" id="mobileMenu">
                     <a href="#">About</a>
                     <a href="#">Services</a>
                     <a href="#">Projects</a>
-                    <a href="#" class="contact-btn">Contact</a>
+                    <a href="#" class="contact-btn-menu">CONTACT</a>
                 </div>
             </nav>
             <h1>
                 <span class="we-are">WE ARE</span>
                 <span class="creatives">CREATIVES</span>
             </h1>
-            <img src="./images/icon-arrow-down.svg" alt="" class="arrow" />
+            <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="Flecha hacia abajo" />
+            </div>
         </header>
 
         <main>
             <section>
-                <img src="./images/mobile/image-transform.jpg" alt="" />
-                <span>Transform your brand</span>
-                <p>
-                    We are full-service creative agency specializing in helping brands grow fast. Engage your clients
-                    through compelling visuals that do most of the marketing for you.
-                </p>
-                <span class="bg-yellow">LEARN MORE</span>
-                <img src="./images/mobile/image-stand-out.jpg" alt="" />
-                <span>Stand out to the right audience</span>
-                <p>
-                    Using a collaborative formula of designers, researchers, photographers, videographers, and
-                    copywriters, we'll build and extend your brand in digital places.
-                </p>
-                <span class="bg-red">LEARN MORE</span>
+                <div class="text-left">
+                    <span class="subtitle">Transform your brand</span>
+                    <p>
+                        We are full-service creative agency specializing in helping brands grow fast. Engage your
+                        clients through compelling visuals that do most of the marketing for you.
+                    </p>
+                    <span class="bg-yellow">LEARN MORE</span>
+                </div>
+                <div class="img-right"></div>
+
+                <div class="img-left"></div>
+                <div class="text-right">
+                    <span class="subtitle">Stand out to the right audience</span>
+                    <p>
+                        Using a collaborative formula of designers, researchers, photographers, videographers, and
+                        copywriters, we'll build and extend your brand in digital places.
+                    </p>
+                    <span class="bg-red">LEARN MORE</span>
+                </div>
+
                 <div class="graphic-design">
                     <span>Graphic Design</span>
                     <p>
@@ -65,36 +79,46 @@
             </section>
             <div class="testimonials">
                 <span class="title">CLIENT TESTIMONIALS</span>
-                <img src="./images/image-emily.jpg" alt="" />
-                <p>
-                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
-                    always hit.
-                </p>
-                <span class="name">Emliy R.</span>
-                <p class="profession">Marketing Director</p>
-
-                <img src="./images/image-thomas.jpg" alt="" />
-                <p>
-                    Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying
-                    and enjoyable experience.
-                </p>
-                <span class="name">Thomas S.</span>
-                <p class="profession">Chief Operating Officer</p>
-
-                <img src="./images/image-jennie.jpg" alt="" />
-                <p>
-                    Incredible en result! Our sales increased over 400% when we worked with Sunnnyside. Highly
-                    recommended!
-                </p>
-                <span class="name">Jennie F.</span>
-                <p class="profession">Business Owner</p>
+                <div class="testimony">
+                    <img src="./images/image-emily.jpg" alt="Emily" />
+                    <p>
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
+                        were always hit.
+                    </p>
+                    <span class="name">Emliy R.</span>
+                    <p class="profession">Marketing Director</p>
+                </div>
+                <div class="testimony">
+                    <img src="./images/image-thomas.jpg" alt="Thomas" />
+                    <p>
+                        Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a
+                        satisfying and enjoyable experience.
+                    </p>
+                    <span class="name">Thomas S.</span>
+                    <p class="profession">Chief Operating Officer</p>
+                </div>
+                <div class="testimony">
+                    <img src="./images/image-jennie.jpg" alt="Jennie" />
+                    <p>
+                        Incredible en result! Our sales increased over 400% when we worked with Sunnnyside. Highly
+                        recommended!
+                    </p>
+                    <span class="name">Jennie F.</span>
+                    <p class="profession">Business Owner</p>
+                </div>
             </div>
 
-            <div class="square-mosaic">
-                <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" />
-                <img src="./images/mobile/image-gallery-orange.jpg" alt="" />
-                <img src="./images/mobile/image-gallery-cone.jpg" alt="" />
-                <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+            <div class="square-mosaic-mobile">
+                <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="Botellas de leche" />
+                <img src="./images/mobile/image-gallery-orange.jpg" alt="Naranja" />
+                <img src="./images/mobile/image-gallery-cone.jpg" alt="Cono de helado" />
+                <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="Cubos de azúcar" />
+            </div>
+            <div class="square-mosaic-desktop">
+                <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="Botellas de leche" />
+                <img src="./images/desktop/image-gallery-orange.jpg" alt="Naranja" />
+                <img src="./images/desktop/image-gallery-cone.jpg" alt="Cono de helado" />
+                <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Cubos de azúcar" />
             </div>
         </main>
 
@@ -106,10 +130,10 @@
                 <p>Projects</p>
             </div>
             <div class="social-media">
-                <img src="./images/icon-facebook.svg" alt="" />
-                <img src="./images/icon-instagram.svg" alt="" />
-                <img src="./images/icon-twitter.svg" alt="" />
-                <img src="./images/icon-pinterest.svg" alt="" />
+                <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook" /></a>
+                <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram" /></a
+                ><a href="#"><img src="./images/icon-twitter.svg" alt="Twitter" /></a
+                ><a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest" /></a>
             </div>
         </footer>
 
