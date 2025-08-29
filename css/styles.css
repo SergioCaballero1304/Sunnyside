@@ -437,10 +437,7 @@ footer .social-media a:hover img {
         gap: 1.5rem;
     }
 
-    #hamburger {
-        display: none !important;
-    }
-
+    #hamburger,
     .mobile-menu {
         display: none !important;
     }
@@ -616,10 +613,7 @@ footer .social-media a:hover img {
         gap: 2rem;
     }
 
-    #hamburger {
-        display: none !important;
-    }
-
+    #hamburger,
     .mobile-menu {
         display: none !important;
     }
