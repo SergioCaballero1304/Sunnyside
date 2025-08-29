@@ -14,7 +14,7 @@ main section span {
 }
 
 header {
-    background-image: url(../images/mobile/image-header.jpg);
+    background-image: url(../public/images/mobile/image-header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ main section span {
 
 .img-right {
     order: 1;
-    background-image: url(../images/mobile/image-transform.jpg);
+    background-image: url(../public/images/mobile/image-transform.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -180,7 +180,7 @@ main section span {
 
 .img-left {
     order: 3;
-    background-image: url(../images/mobile/image-stand-out.jpg);
+    background-image: url(../public/images/mobile/image-stand-out.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -241,7 +241,7 @@ main section p {
 
 .graphic-design {
     order: 5;
-    background-image: url(../images/mobile/image-graphic-design.jpg);
+    background-image: url(../public/images/mobile/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ main section p {
 
 .photography {
     order: 6;
-    background-image: url(../images/mobile/image-photography.jpg);
+    background-image: url(../public/images/mobile/image-photography.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -411,7 +411,7 @@ footer .social-media a:hover img {
 
 @media (min-width: 768px) and (max-width: 1023px) {
     header {
-        background-image: url(../images/desktop/image-header.jpg);
+        background-image: url(../public/images/desktop/image-header.jpg);
         min-height: 70vh;
     }
 
@@ -481,12 +481,12 @@ footer .social-media a:hover img {
 
     .img-right {
         order: 2;
-        background-image: url(../images/desktop/image-transform.jpg);
+        background-image: url(../public/images/desktop/image-transform.jpg);
     }
 
     .img-left {
         order: 3;
-        background-image: url(../images/desktop/image-stand-out.jpg);
+        background-image: url(../public/images/desktop/image-stand-out.jpg);
     }
 
     .text-right {
@@ -500,7 +500,7 @@ footer .social-media a:hover img {
 
     .graphic-design {
         order: 5;
-        background-image: url(../images/desktop/image-graphic-design.jpg);
+        background-image: url(../public/images/desktop/image-graphic-design.jpg);
     }
 
     .graphic-design span,
@@ -517,7 +517,7 @@ footer .social-media a:hover img {
 
     .photography {
         order: 6;
-        background-image: url(../images/desktop/image-photography.jpg);
+        background-image: url(../public/images/desktop/image-photography.jpg);
     }
 
     .text-left,
@@ -583,7 +583,7 @@ footer .social-media a:hover img {
     header {
         min-height: 600px;
         height: 100vh;
-        background-image: url(../images/desktop/image-header.jpg);
+        background-image: url(../public/images/desktop/image-header.jpg);
     }
 
     header h1 {
@@ -705,7 +705,7 @@ footer .social-media a:hover img {
         grid-row: 1 / 2;
         width: 100%;
         height: 100%;
-        background-image: url(../images/desktop/image-transform.jpg);
+        background-image: url(../public/images/desktop/image-transform.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -715,7 +715,7 @@ footer .social-media a:hover img {
         grid-row: 2 / 3;
         width: 100%;
         height: 100%;
-        background-image: url(../images/desktop/image-stand-out.jpg);
+        background-image: url(../public/images/desktop/image-stand-out.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -742,7 +742,7 @@ footer .social-media a:hover img {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        background-image: url(../images/desktop/image-graphic-design.jpg);
+        background-image: url(../public/images/desktop/image-graphic-design.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -753,7 +753,7 @@ footer .social-media a:hover img {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        background-image: url(../images/desktop/image-photography.jpg);
+        background-image: url(../public/images/desktop/image-photography.jpg);
         background-size: cover;
         background-position: center;
     }
